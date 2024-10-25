@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+      { "source": "/pastes/(.*)", "destination": "/" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
