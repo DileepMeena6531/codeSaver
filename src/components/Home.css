@@ -49,12 +49,21 @@
 .textArea{
     height: 75vh;
     width: 70%;
-    text-align: center;
+    text-align:center;
     margin-top: 1rem;
     border-radius: 1rem;
-    background-color: #151620;
-    color: azure;
+    background-image: linear-gradient(to left, rgb(128, 119, 119) , rgb(87, 87, 83),rgb(121, 66, 54));
+    color:white;
     margin-bottom: 6rem;
+    padding: 1rem;
+    overflow-y:auto;
+}
+
+.textArea::first-line{
+    font-size: 1.5em;
+    color:rgba(7, 2, 2, 0.932);
+    background-color:rgb(255, 103, 42);
+    text-align: left;
 }
 
 @media only screen and (max-width:485px) {
